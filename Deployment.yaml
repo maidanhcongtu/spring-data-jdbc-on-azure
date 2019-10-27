@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: spring-jdbc-container
-        image: devday.azurecr.io/spring-jdbc:v1
+        image: devday.azurecr.io/spring-jdbc:v2
         # Add opening port
         ports:                                      #+
         - containerPort: 8080                       #+
